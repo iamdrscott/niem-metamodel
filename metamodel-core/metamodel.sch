@@ -12,7 +12,7 @@
   <ns prefix="xsi" uri="http://www.w3.org/2001/XMLSchema-instance"/>
   <ns prefix="mm" uri="http://reference.niem.gov/specification/metamodel/5.0alpha1"/>
   <ns prefix="f" uri="http://example.org/functions"/>
-  <ns prefix="structures" uri="http://release.niem.gov/niem/structures/4.0/"/>
+  <ns prefix="structures" uri="http://release.niem.gov/niem/structures/5.0/"/>
   
   <pattern>
     <rule context="/*">

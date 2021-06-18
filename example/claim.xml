@@ -1,11 +1,12 @@
 <claim:Claim
   xmlns:claim="http://example.org/claim/1/"
-  xmlns:nc="http://release.niem.gov/niem/niem-core/4.0/">
+  xmlns:nc="http://release.niem.gov/niem/niem-core/5.0/"
+  xmlns:iso_4217="http://release.niem.gov/niem/codes/iso_4217/5.0/">
   <claim:DamagedVehicle>
     <nc:ItemValue>
       <nc:ItemValueAmount>
         <nc:Amount>23827</nc:Amount>
-        <nc:CurrencyCode>USD</nc:CurrencyCode>
+        <iso_4217:CurrencyCode>USD</iso_4217:CurrencyCode>
       </nc:ItemValueAmount>
     </nc:ItemValue>
     <nc:VehicleIdentification>
@@ -14,7 +15,7 @@
   </claim:DamagedVehicle>
   <claim:VehicleDamageAmount>
     <nc:Amount>1432.28</nc:Amount>
-    <nc:CurrencyCode>USD</nc:CurrencyCode>
+    <iso_4217:CurrencyCode>USD</iso_4217:CurrencyCode>
   </claim:VehicleDamageAmount>
 </claim:Claim>
   

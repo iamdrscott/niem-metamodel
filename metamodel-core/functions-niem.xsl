@@ -3,7 +3,7 @@
   version="2.0"
   xmlns:f-xml="http://niem.github.io/NIEM-Metamodel/xsl-functions/xml"
   xmlns:f-niem="http://niem.github.io/NIEM-Metamodel/xsl-functions/niem"
-  xmlns:structures="http://release.niem.gov/niem/structures/4.0/"
+  xmlns:structures="http://release.niem.gov/niem/structures/5.0/"
   xmlns:xml="http://www.w3.org/XML/1998/namespace"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"

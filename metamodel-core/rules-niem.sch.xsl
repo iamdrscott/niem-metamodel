@@ -9,7 +9,7 @@
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xmlns:f-xml="http://niem.github.io/NIEM-Metamodel/xsl-functions/xml"
                 xmlns:f-niem="http://niem.github.io/NIEM-Metamodel/xsl-functions/niem"
-                xmlns:structures="http://release.niem.gov/niem/structures/4.0/"
+                xmlns:structures="http://release.niem.gov/niem/structures/5.0/"
                 version="2.0"><!--Implementers: please note that overriding process-prolog or process-root is 
     the preferred method for meta-stylesheets to use where possible. -->
    <xsl:param name="archiveDirParameter"/>
@@ -178,7 +178,7 @@
                                              prefix="f-xml"/>
          <svrl:ns-prefix-in-attribute-values uri="http://niem.github.io/NIEM-Metamodel/xsl-functions/niem"
                                              prefix="f-niem"/>
-         <svrl:ns-prefix-in-attribute-values uri="http://release.niem.gov/niem/structures/4.0/" prefix="structures"/>
+         <svrl:ns-prefix-in-attribute-values uri="http://release.niem.gov/niem/structures/5.0/" prefix="structures"/>
          <svrl:active-pattern>
             <xsl:attribute name="document">
                <xsl:value-of select="document-uri(/)"/>

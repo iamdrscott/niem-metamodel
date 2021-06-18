@@ -2,16 +2,17 @@
 <xs:schema xmlns:ct="http://release.niem.gov/niem/conformanceTargets/3.0/"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:claim="http://example.org/claim/1/"
-           xmlns:structures="http://release.niem.gov/niem/structures/4.0/"
-           xmlns:nc="http://release.niem.gov/niem/niem-core/4.0/"
+           xmlns:structures="http://release.niem.gov/niem/structures/5.0/"
+           xmlns:nc="http://release.niem.gov/niem/niem-core/5.0/"
            targetNamespace="http://example.org/claim/1/"
-           ct:conformanceTargets="http://reference.niem.gov/niem/specification/naming-and-design-rules/4.0/#ReferenceSchemaDocument"
+           ct:conformanceTargets="http://reference.niem.gov/niem/specification/naming-and-design-rules/5.0/#ReferenceSchemaDocument"
            version="1">
    <xs:annotation>
       <xs:documentation>A data model for an insurance claim.</xs:documentation>
    </xs:annotation>
-   <xs:import namespace="http://release.niem.gov/niem/structures/4.0/"/>
-   <xs:import namespace="http://release.niem.gov/niem/niem-core/4.0/"/>
+   <xs:import namespace="http://release.niem.gov/niem/structures/5.0/"/>
+   <xs:import namespace="http://release.niem.gov/niem/niem-core/5.0/"/>
+   <xs:import namespace="http://release.niem.gov/niem/codes/iso_4217/5.0/"/>
    <xs:element name="Claim" type="claim:ClaimType" nillable="true">
       <xs:annotation>
          <xs:documentation>An insurance claim resulting from an auto crash.</xs:documentation>

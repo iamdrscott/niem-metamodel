@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="US-ASCII"?>
-<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.1//EN" "http://www.oasis-open.org/committees/entity/release/1.1/catalog.dtd">
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-  <uri name="http://release.niem.gov/niem/appinfo/4.0/" uri="utility/appinfo/4.0/appinfo.xsd"/>
-  <uri name="http://release.niem.gov/niem/codes/iso_4217/4.0/" uri="codes/iso_4217/4.0/iso_4217.xsd"/>
-  <uri name="http://release.niem.gov/niem/conformanceTargets/3.0/" uri="utility/conformanceTargets/3.0/conformanceTargets.xsd"/>
-  <uri name="http://release.niem.gov/niem/niem-core/4.0/" uri="niem-core/4.0/niem-core.xsd"/>
-  <uri name="http://release.niem.gov/niem/proxy/xsd/4.0/" uri="proxy/xsd/4.0/xs.xsd"/>
-  <uri name="http://release.niem.gov/niem/structures/4.0/" uri="utility/structures/4.0/structures.xsd"/>
+  <uri name="http://reference.niem.gov/niem/specification/code-lists/5.0/code-lists-instance/" uri="utility/code-lists-instance.xsd"/>
+  <uri name="http://release.niem.gov/niem/codes/iso_4217/5.0/" uri="codes/iso_4217.xsd"/>
+  <uri name="http://release.niem.gov/niem/conformanceTargets/3.0/" uri="utility/conformanceTargets.xsd"/>
+  <uri name="http://release.niem.gov/niem/niem-core/5.0/" uri="niem-core.xsd"/>
+  <uri name="http://release.niem.gov/niem/proxy/niem-xs/5.0/" uri="adapters/niem-xs.xsd"/>
+  <uri name="http://release.niem.gov/niem/structures/5.0/" uri="utility/structures.xsd"/>
+  <nextCatalog catalog="codes/genc/xml-catalog.xml"/>
 </catalog>

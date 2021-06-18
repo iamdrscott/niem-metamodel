@@ -5,7 +5,7 @@
   xmlns:c="urn:oasis:names:tc:entity:xmlns:xml:catalog"
   xmlns:f="http://example.org/functions"
   xmlns:mm="http://reference.niem.gov/specification/metamodel/5.0alpha1"
-  xmlns:structures="http://release.niem.gov/niem/structures/4.0/"
+  xmlns:structures="http://release.niem.gov/niem/structures/5.0/"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"

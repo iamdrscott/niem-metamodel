@@ -8,7 +8,7 @@
   xmlns:f-niem="http://niem.github.io/NIEM-Metamodel/xsl-functions/niem"
   xmlns:f-xml="http://niem.github.io/NIEM-Metamodel/xsl-functions/xml"
   xmlns:mm="http://reference.niem.gov/specification/metamodel/5.0alpha1"
-  xmlns:structures="http://release.niem.gov/niem/structures/4.0/"
+  xmlns:structures="http://release.niem.gov/niem/structures/5.0/"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns="http://www.w3.org/1999/XSL/Transform">
@@ -56,7 +56,7 @@
         <for-each select="$referenced-namespaces">
           <namespace name="{mm:NamespacePrefixName}" select="mm:NamespaceURI"/>
         </for-each>
-        <attribute name="ct:conformanceTargets">http://reference.niem.gov/niem/specification/naming-and-design-rules/4.0/#ReferenceSchemaDocument</attribute>
+        <attribute name="ct:conformanceTargets">http://reference.niem.gov/niem/specification/naming-and-design-rules/5.0/#ReferenceSchemaDocument</attribute>
         <attribute name="version">1</attribute>
 
         <xs:annotation>

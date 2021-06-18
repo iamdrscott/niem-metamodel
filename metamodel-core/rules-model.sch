@@ -16,7 +16,7 @@
   <ns prefix="f-xml" uri="http://niem.github.io/NIEM-Metamodel/xsl-functions/xml"/>
   <ns prefix="f-niem" uri="http://niem.github.io/NIEM-Metamodel/xsl-functions/niem"/>
   <ns prefix="f-model" uri="http://niem.github.io/NIEM-Metamodel/xsl-functions/model"/>
-  <ns prefix="structures" uri="http://release.niem.gov/niem/structures/4.0/"/>
+  <ns prefix="structures" uri="http://release.niem.gov/niem/structures/5.0/"/>
   
   <pattern>
     <rule context="/*">

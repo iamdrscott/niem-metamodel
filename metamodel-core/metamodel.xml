@@ -1,6 +1,6 @@
 <Model
   xmlns:mm="http://reference.niem.gov/specification/metamodel/5.0alpha1"
-  xmlns:s="http://release.niem.gov/niem/structures/4.0/"
+  xmlns:s="http://release.niem.gov/niem/structures/5.0/"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://reference.niem.gov/specification/metamodel/5.0alpha1">
 
@@ -660,7 +660,7 @@
   </Class>
 
   <Namespace s:id="structures">
-    <NamespaceURI>http://release.niem.gov/niem/structures/4.0/</NamespaceURI>
+    <NamespaceURI>http://release.niem.gov/niem/structures/5.0/</NamespaceURI>
     <NamespacePrefixName>structures</NamespacePrefixName>
   </Namespace>
   <Class s:id="structures.ObjectType">
@@ -669,7 +669,7 @@
   </Class>
 
   <Namespace s:id="xs-proxy">
-    <NamespaceURI>http://release.niem.gov/niem/proxy/xsd/4.0/</NamespaceURI>
+    <NamespaceURI>http://release.niem.gov/niem/proxy/xsd/5.0/</NamespaceURI>
     <NamespacePrefixName>xs-proxy</NamespacePrefixName>
   </Namespace>
   <Class s:id="xs-proxy.string">
